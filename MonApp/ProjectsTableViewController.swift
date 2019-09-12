@@ -95,13 +95,13 @@ class ProjectsTableViewController: UITableViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "Contact" {
+        if segue.identifier == "Project" {
             guard let selectedContactRow = tableView.indexPathForSelectedRow?.row else { return }
-            guard let detailViewController = segue.destination as? DetailTableViewController else { return }
+            guard let detaislViewController = segue.destination as? DetailsViewController else { return }
             
             let project = projects[selectedContactRow]
+            detaislViewController.project = project
             
-            detailViewController.contact = project.title
         }
         
     }

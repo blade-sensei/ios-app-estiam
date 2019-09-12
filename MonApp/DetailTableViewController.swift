@@ -10,9 +10,9 @@ import UIKit
 
 class DetailTableViewController: UITableViewController {
 
-    var contact: Project? {
+    var project: Project? {
         didSet {
-            self.title = self.contact?.title
+            self.title = self.project?.title
         }
     }
     

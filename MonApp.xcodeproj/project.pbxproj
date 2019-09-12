@@ -18,6 +18,7 @@
 		960764A523293FA5001BF6AC /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960764A423293FA5001BF6AC /* DetailTableViewController.swift */; };
 		960764A7232A7413001BF6AC /* ProjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960764A6232A7413001BF6AC /* ProjectModel.swift */; };
 		960764A9232A84BB001BF6AC /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960764A8232A84BB001BF6AC /* Auth.swift */; };
+		960764AB232AAAE3001BF6AC /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960764AA232AAAE3001BF6AC /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		960764A423293FA5001BF6AC /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
 		960764A6232A7413001BF6AC /* ProjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectModel.swift; sourceTree = "<group>"; };
 		960764A8232A84BB001BF6AC /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		960764AA232AAAE3001BF6AC /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				9607648023292EC4001BF6AC /* Info.plist */,
 				960764A6232A7413001BF6AC /* ProjectModel.swift */,
 				960764A8232A84BB001BF6AC /* Auth.swift */,
+				960764AA232AAAE3001BF6AC /* DetailsViewController.swift */,
 			);
 			path = MonApp;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				960764A523293FA5001BF6AC /* DetailTableViewController.swift in Sources */,
 				9607647723292EC2001BF6AC /* HomeViewController.swift in Sources */,
 				9607647523292EC2001BF6AC /* AppDelegate.swift in Sources */,
+				960764AB232AAAE3001BF6AC /* DetailsViewController.swift in Sources */,
 				960764A3232934E9001BF6AC /* ProjectsTableViewController.swift in Sources */,
 				960764A9232A84BB001BF6AC /* Auth.swift in Sources */,
 			);
